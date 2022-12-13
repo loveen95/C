@@ -70,10 +70,10 @@ int romanToInt(char* psRmNum)
                     break; 
             } 
         }
-        if (psRmNum[i] == 'V' && psRmNum[i] == 'L' && psRmNum[i] == 'D')
-        {
+        // if (psRmNum[i] == 'V' && psRmNum[i] == 'L' && psRmNum[i] == 'D')
+        // {
             
-        }
+        // }
     }
     
     return liChgNum; 
