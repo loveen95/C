@@ -59,8 +59,7 @@ void stringNumCopy(char* n1, char* n2, unsigned int num)
 int stringLength(char* str) // 문자열 길이 반환 함수 
 {
     int liLen;
-    for (liLen = 0; str[liLen]; liLen++);
-    
+    for (liLen = 0; str[liLen]; liLen++);   
     return liLen; 
 
 }
