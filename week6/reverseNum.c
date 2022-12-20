@@ -28,7 +28,7 @@ void writeFile()
     while(reverse != NULL)
     {
         
-        fprintf(wrFp,"%d", reverse->val); 
+        fprintf(wrFp,"%d ", reverse->val); 
         reverse = reverse->link;      
     }
     fclose(wrFp);     

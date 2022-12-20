@@ -29,7 +29,7 @@ void writeFile()
     while(newNum != NULL)
     {
         
-        fprintf(wrFp,"%d", newNum->val); 
+        fprintf(wrFp,"%d ", newNum->val); 
         newNum = newNum->link;      
     }
     fclose(wrFp);     
